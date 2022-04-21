@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inquiries/Customs</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Heading Logo (Links back to Index/Home)-->
+    <div class="logo">
+        <a href="index.html"><img src="images/vicious-cycles-logo.png" alt="Vicious Cycles Logo"></a>
+    </div>
+
+    <nav>
+        <!--Navigation list-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="buy.html">Buy</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('images/caslte.jpg');">
+        <section class="visit">  
+            <h2>Complete the form below to schedule an appointment with our crew today or other inquiries such as repairs or restocks!</h2>
+        </section>
+    </div>
+
+    <main>
+
+        <h1>Inquiry Form</h1>
+
+        <!--Customer Contact Form-->
+        
+        <form>
+            <!--Customer Text Input-->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+
+            <label for="topic">Topic of Interest:</label><br>
+            
+            <!--Drop Down Menu-->
+            <select id="topic" name="topic">
+                <option value="customs">Custom Builds</option>
+                <option value="restock">Restocks</option>
+                <option value="repairs">Repairs</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <label for="desc">In-Depth Description:</label><br>
+            <input type="text" id="desc" name="desc"><br>
+
+            <!--Radio Buttons-->
+            <ul class="radio">
+                <li><input type="radio" id="video" name="radio" value="Video Call">
+                <label for="video">Video Call</label></li>
+
+                <li><input type="radio" id="audio" name="radio" value="Audio Call">
+                <label for="audio">Audio Call</label></li>
+
+                <li><input type="radio" id="emailc" name="radio" value="Email">
+                <label for="emailc">Email Conversation</label></li>
+
+                <li><input type="radio" id="irl" name="radio" value="In-Person Visit">
+                <label for="irl">In-Person Visit</label></li>
+            </ul>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+
+        <!--Related Information and links to relevant pages-->
+        <h1>Additional Information About Customs</h1>
+
+        <p>All custom builds will require a 25% down payment before projects will begin, and either payment in full, or an approved in-house loan, or a transfer of funds to a third-party vendor. All purchases on custom cycles are final.</p>
+
+        <p>Visit the <a href="gallery.html">Gallery</a> page to see our previous customs.</p>
+
+    </main>
+
+    <!--Footer Content-->
+    <footer>
+        <div class="foot">
+            <h3>Ride your cycle, chase your dreams, live your life.</h3>
+        </div>
+
+        <!--Footer Logo (Link Back to Index)-->
+        <a href="index.html"><img class="footerimg" alt="Vicious Cycles Logo" src="images/vicious-cycles-logo.png"></a>
+
+        <!--Social Media Links-->
+        <div class="socials">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="FaceBook Logo"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Logo" ></a>   
+        </div>
+        
+        <!--Location and Email-->
+        <p>Located at 123 Main St. Durham, NC 27000</p>
+        <p>contact@viciouscycles.com</p>
+        <p>copyright © all rights reserved.</p>
+    </footer>
+
+</body>
+</html>
